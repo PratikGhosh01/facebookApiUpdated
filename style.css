@@ -1,0 +1,97 @@
+body {
+    word-break: break-all;
+    background-color: #B0E0E6;
+
+}
+
+#mainData {
+    display: none;
+}
+.userDetails{
+    border:2px solid black;border-radius: 0.5em;
+
+}
+
+.coverHeight {
+   margin-top: 2vw;
+    max-height: 20vmax;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.userName {
+    font-size: 3vw;
+}
+
+.profileHeight {
+    border: 0.5vw solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px silver;
+}
+
+.rowStyle {
+    border-bottom: 1px solid #ddd;
+    margin-top: 1em !important;
+}
+
+.rowStyle div {
+    padding: 1em;
+}
+
+.feedData {
+    border-bottom: 1px solid #ddd;
+    margin-top: 1em !important;
+    display: none;
+}
+.feedData div {
+    padding: 1em;
+}
+
+
+#link1:hover{
+    cursor: pointer;
+}
+
+
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color:#007BFF;
+  height: 2em;
+  padding-top: 2em;
+  margin-top: 2em;
+}
+
+#myFeed img{
+      height: 20vmax;
+      width: 20vmax;
+
+}
+#myFeed p{
+ font-size: 1em;
+ font-weight: 500;
+}
+
+#link1{
+  color: black;
+}
+
+#link1:hover{
+  color:white;
+}
+#link2{
+  color: black;
+}
+
+#link2:hover{
+  color:white;
+}
+#navv{
+  background-color: #00BFFF !important;
+  color: black !important;
+
+}
